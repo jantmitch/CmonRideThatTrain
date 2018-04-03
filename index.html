@@ -11,6 +11,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.21.0/moment.js"></script>
 
     <!-- <script src="moment.js"></script> -->
 
@@ -37,8 +38,8 @@
         <th scope="col">Train Name</th>
         <th scope="col">Destination</th>
         <th scope="col">Frequency (min)</th>
-        <th scope="col">Next Arrival</th>
-        <th scope="col">Minutes Away</th>
+        <th scope="col" id="arrival">Next Arrival</th>
+        <th scope="col" id="away">Minutes Away</th>
         </tr>
     </thead>
     <tbody>
